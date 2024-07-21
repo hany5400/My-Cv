@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+
+
+.main{
+    box-shadow: 9px 67px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+
+.A, .B {
+    height: 160%;
+    width: 50%;
+    position: absolute;
+    font-family: 'Cambria', Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+
+.A {
+    left: 13%;
+    background-color: bisque; 
+}
+
+.B {
+    right: 12%;
+    background-color: whitesmoke;
+    box-shadow: 9px 0px 15px rgba(0, 0, 0, 0.2); 
+    width: 650px;
+}
+
+.cv-image {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.contact-info {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.logo-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.logo-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo-item span {
+    font-size: 16px;
+    color: black;
+}
+
+.skills-section, .language-section, .achievements-section {
+    margin-bottom: 25px;
+}
+
+.skills-title, .language-title, .achievements-title {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.skill-list li, .language-list li, .achievements-list li {
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+
+h1{
+    margin-top: 100px;
+    font-size: 60px;
+}
+
+h2{
+    
+    margin-bottom: 80px;
+}
+
+
+.Summary-section, .course-section, .education-section {
+    margin-bottom: 25px;
+}
+
+.Summary-title, .course-title, .education-title {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.Summary-list li, .course-list li, .education-list li {
+    margin-bottom: 15px;
+    font-size: 17px;
+}
